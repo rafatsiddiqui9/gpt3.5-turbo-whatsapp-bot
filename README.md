@@ -29,5 +29,8 @@ pip install -r requirements.txt
  
 ## Contact Me
 ```bash
-Email - yuvarajcoder@gmail.com
+Email - mdrafat.siddiqui@outlook.com
+
+Thanks to Yuvraj whose git has been forked for personal use. You can check his page here
+https://github.com/yuvaraj-06/gpt3.5-turbo-whatsapp-bot/blob/main/chatgpt.py
 ```
