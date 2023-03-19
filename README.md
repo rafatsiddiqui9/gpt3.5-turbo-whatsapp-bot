@@ -8,7 +8,6 @@ Python chatbot implemented with official OpenAI API using model `gpt-3.5-turbo`.
 
 ```bash
 git clone https://github.com/rafatsiddiqui9/gpt3.5-turbo-whatsapp-bot
-cd gpt3.5-turbo-whatsapp-bot
 ```
 
 ## Change Directory
