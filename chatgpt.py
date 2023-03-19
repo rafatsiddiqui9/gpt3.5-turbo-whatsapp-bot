@@ -6,13 +6,14 @@ import requests
 OPENAI_API_KEY = "API_KEY"
 
 
+
 class GPT:
     def __init__(self, id):
         self.id = id
         self.file_name = f"{str(self.id)}.json"
         self.session = {
             "start": True,
-            "data": "Hi there! My name is RajGPT, and I'm here to help you with anything , you can ask me any question",
+            "data": "Hi there! My name is AI_DeepDive_GPT_by_Rafat, and I'm here to help you with anything , you can ask me any question",
             "log": [
                 {
                     "role": "system",
@@ -20,7 +21,7 @@ class GPT:
                 },
                 {
                     "role": "assistant",
-                    "content": "Hi there! My name is RajGPT, and I'm here to help you with anything , you can ask me any question",
+                    "content": "Hi there! My name is AI_DeepDive_GPT_by_Rafat, and I'm here to help you with anything , you can ask me any question",
                 },
             ],
         }
@@ -43,7 +44,7 @@ class GPT:
             with open(self.file_name, "w") as outfile:
                 json.dump(self.session, outfile)
             outfile.close()
-            return "Hi there! My name is RajGPT, and I'm here to help you with anything , you can ask me any question"
+            return "Hi there! My name is AI_DeepDive_GPT_by_Rafat, and I'm here to help you with anything , you can ask me any question"
 
         openai.api_key = OPENAI_API_KEY
 
