@@ -3,7 +3,7 @@ import re
 import json
 import requests
 
-OPENAI_API_KEY = "API_KEY"
+OPENAI_API_KEY = str(input("API_KEY"))
 
 
 
